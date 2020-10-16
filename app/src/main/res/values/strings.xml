@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppDemo</string>
+    <string name="title_activity_login">MainActivity</string>
+    <string name="title_home">Quản lý ứng dụng</string>
+    <string name="title_fillter">Bộ lọc</string>
+    <string name="title_statistical">Thống kê</string>
+    <string name="title_settings">Cài đặt</string>
+</resources>
