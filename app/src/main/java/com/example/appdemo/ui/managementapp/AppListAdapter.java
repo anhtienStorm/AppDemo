@@ -1,4 +1,4 @@
-package com.example.appdemo.ui.home;
+package com.example.appdemo.ui.managementapp;
 
 import android.content.Context;
 import android.view.LayoutInflater;

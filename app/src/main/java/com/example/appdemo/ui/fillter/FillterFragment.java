@@ -30,14 +30,18 @@ public class FillterFragment extends Fragment {
             public void onClick(View view) {
                 mFavoriteListView.setVisibility(View.VISIBLE);
                 mBlockListView.setVisibility(View.GONE);
+                mFavoriteListTitle.setBackgroundResource(R.drawable.background_rounded_cornner_selected);
+                mBlockListTitle.setBackgroundResource(R.drawable.background_rounded_cornner);
             }
         });
 
-        mBlockListView.setOnClickListener(new View.OnClickListener() {
+        mBlockListTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mFavoriteListView.setVisibility(View.GONE);
                 mBlockListView.setVisibility(View.VISIBLE);
+                mBlockListTitle.setBackgroundResource(R.drawable.background_rounded_cornner_selected);
+                mFavoriteListTitle.setBackgroundResource(R.drawable.background_rounded_cornner);
             }
         });
 

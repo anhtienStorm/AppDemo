@@ -21,6 +21,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.settings.activity.DeviceConnectedActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_device_connected" />
+        <activity
+            android:name=".ui.settings.activity.NotificationAcitivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_notification" />
+        <activity
+            android:name=".ui.settings.activity.AccountAcitivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_account" />
+        <activity
+            android:name=".ui.settings.activity.BlockAppAcitivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_block_app" />
     </application>
 
 </manifest>

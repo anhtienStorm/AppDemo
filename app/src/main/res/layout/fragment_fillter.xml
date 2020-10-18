@@ -17,6 +17,8 @@
             android:id="@+id/list_favorite_title"
             android:layout_width="match_parent"
             android:gravity="center"
+            android:background="@drawable/background_rounded_cornner_selected"
+            android:lineHeight="10dp"
             android:text="Danh sách ưu tiên"
             android:layout_weight="1"
             android:layout_height="match_parent" />
@@ -25,6 +27,7 @@
             android:id="@+id/list_block_title"
             android:layout_width="match_parent"
             android:gravity="center"
+            android:background="@drawable/background_rounded_cornner"
             android:text="Danh sách cấm"
             android:layout_weight="1"
             android:layout_height="match_parent" />

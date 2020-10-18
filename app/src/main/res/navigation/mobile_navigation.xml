@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/navigation_management_app"
+        android:name="com.example.appdemo.ui.managementapp.ManagementAppFragment"
+        android:label="@string/title_manager_app"
+        tools:layout="@layout/fragment_mangement_app" />
+
+    <fragment
         android:id="@+id/navigation_fillter"
         android:name="com.example.appdemo.ui.fillter.FillterFragment"
         android:label="@string/title_fillter"
